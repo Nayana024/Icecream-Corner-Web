@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .site-header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px 7%;
+            background: rgba(248, 247, 247, 0.88);
+            box-shadow: 0 2px 12px rgba(90, 54, 38, 0.12);
+        }
+
+        .site-header .brand {
+            color: #8b4f61;
+            font-family: "Lobster Two", cursive;
+            font-size: 2rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .site-header nav {
+            display: flex;
+            gap: 12px;
+            margin-left: auto;
+        }
+
+        .site-header nav a {
+            color: #5b3a35;
+            font-family: Lato, sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: color 0.2s ease, transform 0.2s ease;
+        }
+
+        .site-header nav a:hover,
+        .site-header nav a:focus {
+            color: #d77b91;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 600px) {
+            .site-header {
+                padding: 16px 5%;
+            }
+
+            .site-header .brand {
+                font-size: 1.6rem;
+            }
+
+            .site-header nav {
+                gap: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home">FROZÉN</a>
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home-page" id="home">
+    
+
+    <section class="img">
+        <img src="img.png" alt="logo" width="150" height="150">
+    </section>
+
+    <section class="home">
+        <h3>TASTE THE JOY OF EVERY SCOOP</h3>
+        <h1>Made for Moments <br> Worth Remembering </h1>
+        <button class="lm" id="new">Order Now</button>
+    </section>
+    </section>
+
+    
+     <div class="new">
+            <h2 class="A">  ♡   SCOOPS OF GOODNESS   ♡ </h2>
+            <h1> A Little <span>Happiness</span> in Every Scoop </h1>
+            <h2 class="B">Made with love. Served with joy.</h2>
+        </div>
+    <section class="home-page2">
+       
+        <div class="left">
+            <h3>♡ OUR STORY</h3>
+            <h4>At FROZÉN, we believe every scoop should bring a little happiness.</h4><br>
+            <h2 id="A1">From classic favourites to  exciting new  flavours, our ice creams are made with quality ingredients. </h2><br>
+            <h2 id="A2">We create sweet little moments that are meant to be enjoyed, shared and remembered. we've been crafting rich, creamy and delicious ice creams using traditional recipes and the finest ingredients - because every scoop deserves a little extra love </h2>
+            <button class="first" id="h1">Learn More</button>
+        </div>
+
+        <div class="center">
+            <img src="https://www.orchidsandsweettea.com/wp-content/uploads/2024/07/Chocolate-Espresso-Ice-Cream.jpg" alt="" width="400" height="400">
+        </div>
+
+        <div class="right">
+            <h1 id="feature">WHY FROZÉN? ♡</h1>
+            <h4 id="para">More than just ice cream - its little moment of happiness.</h4>
+            <h3 class="new1">🍃 Premium  Ingredients</h3>
+            <p1>carefully selected ingredients for rich, creamy goodness.</p1>
+            <h3 class="new2">🩷  Irresistible Flavours</h3>
+            <p2>Classic favourites and exciting flavours for every mood.</p2>
+            <h3 class="new3">✨ Made With Love</h3>
+            <p3>Every scoop is creafted to make your day a little sweeter.</p3><br>
+            <button class="second" id="h2">Learn More</button>
+        </div>
+    </section><br>
+
+    <section class="home-page3">
+        <div class="vid">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="text">
+            <h3>Chocolate Ice Cream</h3>
+            <p>Some moments call for something special. Our Chocolate Ice Cream brings together rich cocoa and creamy sweetness to create a scoop worth remembering.</p>
+            <button id="border">Order Now</button>
+        </div>
+    </section><br>
+
+    <section class="home-page4" id="menu">
+        <div>
+            <h3> ♡ OUR FLAVOURS ♡ </h3>
+            <h1>A Scoop For <span>"Every Mood"</span></h1>
+        </div>
+    <section class="imgs">
+        <div class="ice" id="ice1">
+            <img src="Rose Pistachio.png" alt="" >
+            <h3>Rose Pistachio</h3>
+            <p>Nutty, floral & irresistibly creamy.</p>
+            <button class="ef">Order Now →</button>
+        </div>
+
+        <div class="ice" id="ice2">
+            <img src="Tiramisu Dream.png" alt="">
+            <h3>Tiramisu Dream</h3>
+            <p>Coffee, cocoa & creamy indulgence.</p>               
+            <button class="ef">Order Now →</button>
+        </div>
+
+        <div class="ice" id="ice3">
+            <img src="Biscoff Bliss.png" alt="">
+            <h3>Biscoff Bliss</h3>
+            <p>Caramelised cookie goodness in every scoop.</p>
+            <button class="ef">Order Now →</button>
+        </div>
+
+        <div class="ice" id="ice4">
+            <img src="Dark Chocolate.png" alt="">
+            <h3>Dark Chocolate</h3>
+            <p>Rich chocolate wrapped in creamy sweetness.</p>
+            <button class="ef">Order Now →</button>
+        </div>
+
+        <div class="ice" id="ice5">
+            <img src="Mango Cheesecake.png" alt="">
+            <h3>Mango Cheesecake</h3>
+            <p>Juicy mango meets cheesecake dreams.</p>
+            <button class="ef">Order Now →</button>
+        </div>
+    </section>
+    </section>
+
+    <section class="home-page5" id="contact">
+        <div class="head">
+        <h1>FROZÉN ♡</h1>
+        <p>Crafting happiness one scoop at a time <br> Thank you for being part of our sweet journey!</p>
+        <button><i class="fa-brands fa-twitter"></i></button>
+        <button><i class="fa-brands fa-facebook-f"></i></button>
+        <button><i class="fa-brands fa-instagram"></i></button>
+        <button><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
+
+        <div class="head1">
+            .      .      .      . 
+        </div>
+
+        <div class="head2">
+            <h1>Come Visit Us ♡</h1>
+            <i class="fa-solid fa-location-dot"></i>Mysore, Karnataka, India<p></p>
+            <i class="fa-solid fa-phone"></i>+91 1234567890<p></p>
+            <i class="fa-regular fa-envelope"></i>frozen@gmail.com<p></p>
+            <i class="fa-regular fa-clock"></i>Mon-Sun | 10am-10pm<p></p>
+        </div>
+    </section>
+    
+</body>
+</html>

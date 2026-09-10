@@ -599,3 +599,194 @@ p1,p2,p3{
         transform: rotate(360deg);
     }
 }
+
+/* ---------------------------- Responsive Media Queries ---------------------------- */
+
+@media (max-width: 1100px) {
+    nav {
+        margin: 0 30px 0 0;
+        text-align: center;
+    }
+
+    .img {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .home-page2 {
+        margin: 0 30px;
+        gap: 15px;
+    }
+
+    .left,
+    .right,
+    .center {
+        width: 50%;
+        height: auto;
+    }
+
+    .home-page3,
+    .home-page4,
+    .home-page5 {
+        width: 95%;
+    }
+
+    .imgs {
+        flex-wrap: wrap;
+    }
+
+    .ice {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page {
+        height: auto;
+        padding: 100px 20px 60px;
+    }
+
+    .home {
+        padding-top: 12vh;
+    }
+
+    .home h1 {
+        font-size: 52px;
+    }
+
+    .home h3 {
+        font-size: 24px;
+        margin-top: -30px;
+    }
+
+    .home-page2 {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .left,
+    .right,
+    .center {
+        width: 100%;
+    }
+
+    .home-page3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home-page3 .text,
+    .vid {
+        width: 100%;
+    }
+
+    .text h3 {
+        font-size: 36px;
+    }
+
+    .text p {
+        font-size: 22px;
+    }
+
+    .home-page4 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .ice {
+        width: 100%;
+    }
+
+    .home-page5 {
+        width: 90%;
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .head p {
+        font-size: 24px;
+    }
+
+    .head1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-page {
+        padding: 80px 15px 40px;
+    }
+
+    span {
+        font-size: 36px;
+    }
+
+    .home h1 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .home h3 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    nav {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .lm,
+    .first,
+    .second,
+    .text button,
+    .head button {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .new h1,
+    .home-page4 h1 {
+        font-size: 32px;
+    }
+
+    .left,
+    .right {
+        padding: 20px 15px;
+    }
+
+    .home-page3 .text {
+        padding: 20px 15px;
+    }
+
+    .text h3 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    .imgs {
+        margin: 20px 10px;
+    }
+
+    .ice img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .head p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 32px;
+    }
+
+    .head2 i {
+        font-size: 16px;
+    }
+}
+
